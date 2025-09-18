@@ -9,6 +9,7 @@
     "express": "^5.1.0",
     "firebase-admin": "^13.5.0"
   },
+  "type": "module",
   "scripts": {
     "dev": "tsx db.ts",
     "build": "tsc",
