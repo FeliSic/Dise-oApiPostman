@@ -13,7 +13,7 @@
     "dev": "tsx db.ts",
     "build": "tsc",
     "ci": "yarn install && yarn build",
-    "start": "start dist/db.js"
+    "start": "node dist/db.js"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19"
